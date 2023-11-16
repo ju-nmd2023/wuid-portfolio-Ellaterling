@@ -1,19 +1,9 @@
-body {
-  background-color: 255, 255, 255;
-  text-align: center;
+ul {
+  list-style: none;
+  margin-left: 0%;
+  color: rgb(10, 22, 62);
 }
 
-.contact-img {
-  height: 80%;
-  margin-top: 5%;
-  width: 80%;
-}
-
-.header {
-  margin-top: 3%;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 h1 {
   margin-top: 0%;
   margin-bottom: 0%;
@@ -22,11 +12,16 @@ h1 {
   text-align: center;
 }
 p {
-  margin-top: 5%;
-  font-size: 17px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  width: 90%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(10, 22, 62);
+  margin-left: 2%;
+}
+footer {
+  margin-top: 150%;
+  color: rgb(10, 22, 62);
+}
+body {
+  background-color: rgb(255, 255, 255);
 }
 nav {
   display: flex;
@@ -36,7 +31,18 @@ nav {
 }
 nav a {
   color: white;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  text-decoration: none;
+}
+img {
+  width: 80%;
+  height: 80%;
+}
+.contact-img {
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-align: center;
 }
