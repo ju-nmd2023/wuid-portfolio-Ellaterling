@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  margin-left: 0%;
+  color: rgb(10, 22, 62);
+}
+h1 {
+  font-size: 300%;
+  color: rgb(10, 22, 62);
+  margin-left: 2%;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(10, 22, 62);
+  margin-left: 2%;
+}
+footer {
+  margin-top: 150%;
+  color: rgb(10, 22, 62);
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+img {
+}
