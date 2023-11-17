@@ -18,3 +18,37 @@ h1 {
   font-size: 70px;
   text-align: center;
 }
+img {
+  width: 19rem;
+  height: 19rem;
+}
+.previous-work {
+  gap: 10px;
+  align-content: center;
+}
+
+@media screen and (min-width: 900px) {
+  .previous-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+.asien-image {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+footer {
+  margin-top: 10%;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3%;
+}
+figcaption {
+  font-size: 1.2rem;
+  margin-top: 1.5%;
+}
