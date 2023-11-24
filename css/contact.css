@@ -6,7 +6,7 @@ form {
   margin: 50px auto;
 }
 .feedback-input {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -96,4 +96,22 @@ nav a {
 .caption {
   font-size: 20px;
   text-align: center;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  animation: bounce 1.5s infinite;
 }
